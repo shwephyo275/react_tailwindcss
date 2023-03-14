@@ -31,7 +31,7 @@ function User() {
         return  (
         <div key={post.id} className=" border p-5 rounded-xl" onClick={() => navigate(`/detail/${post.id}`)}>
           <img src={post.url} className="mb-5 rounded-lg" alt="" />
-          {post.id}. {post.title}{" "}
+          {post.id}. {post.title}
            <Link to={`/detail/${post.id}`} className="text-green-400">See More...</Link>
           </div>
           );
