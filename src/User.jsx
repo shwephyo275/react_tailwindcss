@@ -35,7 +35,7 @@ function User() {
            <Link to={`/detail/${post.id}`} className="text-green-400">See More...</Link>
           </div>
           );
-      })}n
+      })}
     </div>
       </div>
     </>
